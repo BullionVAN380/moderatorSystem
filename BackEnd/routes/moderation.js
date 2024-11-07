@@ -8,10 +8,10 @@ const router = express.Router();
 
 // Endpoint to submit data
 router.post('/submit', async (req, res) => {
-  const { department,trainer, course, unit, level, answers } = req.body;
+  const { department,trainer, course, unit, level,year, answers } = req.body;
 
   try {
-    const moderation = new Moderation({ department,trainer, course, unit, level, answers });
+    const moderation = new Moderation({ department,trainer, course, unit, level,year, answers });
     await moderation.save();
     res.status(200).json({ message: 'Data submitted successfully', id: moderation._id });
   } catch (err) {
@@ -72,8 +72,14 @@ router.get('/download/:id', async (req, res) => {
     doc.text(`Trainer: ${moderation.trainer}`);
     doc.text(`Unit: ${moderation.unit}`);
     doc.text(`Level: ${moderation.level}`);
+    doc.text(`Class: ${moderation.year}`);
     doc.text(`Date: ${new Date(moderation.submissionDate).toLocaleDateString()}`);
     doc.moveDown();
+///mine
+    doc.text('Levels / Modules:');
+    moderation.levels.forEach((item, index) => {
+      doc.text(`- ${typeof item === 'number' ? `Level ${item}` : item}`);
+    });
 
     // Add each guideline and response
     moderation.answers.forEach((item, index) => {

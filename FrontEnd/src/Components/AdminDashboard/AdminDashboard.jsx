@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // Sample Data
 const departments = [
     {
-        name: "ELECTRICAL AND ELECTRONICS ENGINEERING",
+        name: "ENGINEERING",
         trainers: ["Mr Wambui", "Mr Lupe"],
         courses: [
             {
@@ -20,6 +20,65 @@ const departments = [
                         "ELECTRICAL INSTALLATION BREAKDOWN MAINTENANCE",
                     ],
                 levels: [4],
+            },
+            {
+                name: "AUTOMOTIVE ENGINEERING",
+                units: ["ENTREPRENEURSHIP EDUCATION",
+                        "TECHNICAL DRAWING",
+                        "APPLIED SCIENCE",
+                        "WORKSHOP TECHNOLOGY",
+                        "ELECTRICAL PRINCIPLES",
+                        "VEHICLE TECHNOLOGY",
+                        "VEHICLE BODY WORK",
+                        "LIFE SKILLS",
+                        "TECHNICAL DRAWING II",
+                        "MATHEMATICS II",
+                        "VEHICLE ELECTRICAL AND ELECTRONIC SYSTEMS",
+                        "VEHICLE ENGINES TECHNOLOGY",
+                        "DRIVING SKILLS",
+                        "WORKSHOP ORGANISATION AND MANAGEMENT",
+                        "BUSINESS PLAN",
+                        "TRADE PROJECT",
+                        "MATHEMATICS ",
+                        "SCIENCE",
+                        "GENERAL STUDIES" ,
+                        "APPLIED GEOMETRY" ,
+                        "MOTOR VEHICLE MECHANICS TRADE THEORY",
+                        "TRADE PRACTICE",
+                        "DEMONSTRATE OCCUPATIONAL SAFETY AND HEALTH PRACTICES",
+                        "PREPARE AND INTERPRET TECHNICAL DRAWINGS",
+                        "APPLY ENGINEERING MATHEMATICS",
+                        "SERVICE VEHICLE AND REPAIR VEHICLE ENGINE COMPONENTS",
+                        "SERVICE VEHICLE FUEL SYSTEM",
+                        "SERVICE VEHICLE TRANSMISSION SYSTEMS",
+                        "SERVICE VEHICLE STEERING SYSTEM",
+                        "SERVICE VEHICLE SUSPENSION SYSTEM",
+                        "SERVICE VEHICLE ELECTRICAL SYSTEMS",
+                        "DEMONSTRATE OCCUPATIONAL SAFETY & HEALTH PRACTICES",
+                        "PREPARE & INTERPRET TECHNICAL DRAWINGS",
+                        "APPLY AUTOMOTIVE ENGINEERING SCIENCE PRINCIPLES",
+                        "APPLY WORKSHOP TECHNOLOGY PRINCIPLES",
+                        "PERFORM VEHICLE BASIC MAINTENANCE",
+                        "SERVICE AND REPAIR VEHICLE ENGINE COMPONENTS",
+                        "SERVICE VEHICLE TRANSMISSION SYSTEM",
+                        "SERVICE VEHICLE BRAKING SYSTEM",
+                        "PERFORM VEHICLE BODY WORKS",
+                        "INDUSTRIAL ATTACHMENT",
+                        "DEMONSTRATE COMMUNICATION SKILLS" ,
+                        "DEMONSTRATE DIGITAL LITERACY",
+                        "DEMONSTRATE ENTREPRENEURIAL SKILLS" ,
+                        "DEMONSTRATE EMPLOYABILITY SKILLS" ,
+                        "DEMONSTRATE ENVIRONMENTAL LITERACY" ,
+                        "PREPARE AND INTERPRET GEOMETRY DRAWING",
+                        "APPLY BASIC MATHEMATICS",
+                        "APPLY BASIC SCIENCE PRINCIPLES",
+                        "PERFORM & WORKSHOP TECHNOLOGY APPLICATIONS",
+                        "MAINTAIN WORKSHOP TOOLS, EQUIPMENT AND MEASURING DEVICES",
+                        "SERVICE AND REPAIR VEHICLE ENGINE",
+                        "SERVICE AND REPAIR VEHICLE FUEL SYSTEMS",
+                        "SERVICE AND REPAIR VEHICLE STEERING AND SUSPENSION SYSTEMS",
+                        "SERVICE VEHICLE BRAKING SYSTEMS", ],
+                levels: [4,5,6,"Module 1","Module 2","Module 3"],
             },
             {
                 name: "ELECTRICAL OPERATION",
@@ -95,32 +154,6 @@ const departments = [
         ],
     },
     {
-        name: "LIBERAL STUDIES",
-        trainers: ["Mr Konyo", "Mr Lucy"],
-        courses: [
-            {
-                name: "SOCIAL WORK & COMMUNITY DEVELOPMENT",
-                units: ["201 SOCIAL WORK THEORY AND PRACTICE",
-                            "101 INTRODUCTION TO COMMUNITY DEVELOPMENT",
-                            "102 DEVELOPMENT ECONOMICS",
-                            "103 COMMUNITY BASED ORGANIZATIONS",
-                            "104 COMMUNICATION SKILLS",
-                            "102 ENTREPRENEURSHIP EDUCATION",
-                            "103 COMMUNITY CAPACITY BUILDING AND EMPOWERMENT",
-                            "104 INFORMATION COMMUNICATION TECHNOLOGY",
-                            "RESOURCE MOBILIZATION AND FUNDRAISING",
-                            "PROJECT MANAGEMENT",
-                            "ADVOCACY AND LOBBYING",
-                            "HIV AND AIDS AND OTHER PANDEMICS",
-                            "STATISTICS",
-                            "LEGAL ASPECTS IN SOCIAL DEVELOPMENT WORK",
-                            "RESOURCE MANAGEMENT"
-                        ],
-                levels: [4, 5, 6],
-            },
-        ],
-    },
-    {
         name: "ICT",
         trainers: ["Mr Kungu","Mr Mwasya", "Mr Duke", "Mr Mugo", "Mr Bungei", "Mr Mwasi"],
         courses: [
@@ -153,30 +186,106 @@ const departments = [
                         "DEVELOP MOBILE APPLICATION",
                         "PERFORM SYSTEM ANALYSIS AND DESIGN",
 ],
-                levels: [4, 5, 6],
+                levels: [4, 5, 6 ],
             },
         ],
     },
     {
         name: "FASHON & DESIGN ",
-        trainers: ["Mr Sheks", "Mr Cert"],
+        trainers: ["NICHOLAS MATHERU",
+                    "EXPANILLAR CHITSAKA", 
+                    "CAROLINE WAWUDA",
+                    "CAROLINE WANJAA"],
         courses: [
             {
-                name: "COURSE 1",
-                units: ["UNIT 1", "UNIT 2"],
-                levels: [4, 5, 6],
-            },
-            {
-                name: "COURSE 2",
-                units: ["UNIT 33", "UNIT 22"],
-                levels: [4, 5, 6],
+                name: "FASHON & DESIGN",
+                units: ["INDUSTRIAL ORGANIZATION MANAGEMENT I",
+                        "QUALITY CONTROL I",
+                        "TEXTILE SCIENCE II THEORY",
+                        "CLOTHING CONSTRUCTION II THEORY",
+                        "FASHION DESIGN & SKETCHING II",
+                        "CUTTING TECHNOLOGY II THEORY",
+                        "PATTERN CONSTRUCTION II PRACTICAL",
+                        "GRADING TECHNIQUES I",
+                        "CLOTHING CONSTRUCTION II PRACTICAL",
+                        "CLOTHING CONSTRUCTION III PRACTICAL",
+                        "CLOTHING CONSTRUCTION III THEORY",
+                        "FASHION MARKETING",
+                        "INDUSTRIAL ORGANIZATION MANAGEMENT II",
+                        "QUALITY CONTROL II",
+                        "PATTERN CONSTRUCTION III AND GRADING TECHNIQUES II PRACTICAL",
+                        "BATIK PRACTICAL",
+                        "EMBROIDERY PRACTICAL",
+                        "GARMENT MAKING PRACTICAL FOR MEN",
+                        "GARMENT MAKING PRACTICAL FOR WOMEN",
+                        "GARMENT CUTTING THEORY",
+                        "GARMENT MAKING THEORY",
+                        "PATTERN DRAFTING II AND GRADING I",
+                        "COMMUNICATION SKILLS",
+                        "OCCUPATIONAL SAFETY AND HEALTH PRACTICES",
+                        "SEWING MACHINE OPERATIONS",
+                        "GARMENT CONSTRUCTION",
+                        "FABRIC AND GARMENTS DECORATION",
+                        "DEMONSTRATE NUMERACY SKILLS",
+                        "DEMONSTRATE DIGITAL LITERACY",
+                        "DEMONSTRATE ENTREPRENEURIAL SKILLS",
+                        "DEMONSTRATE EMPLOYABILITY SKILLS",
+                        "DEMONSTRATE OCCUPATIONAL SAFETY & HEALTH PRACTICE",
+                        "PERFORM SEWING MACHINE OPERATION",
+                        "DESIGN AND CONSTRUCT GARMENTS",
+                        "DESIGN AND CONSTRUCT ACCESSORIES",
+                        "DESIGN AND DECORATE FABRICS",
+                        "ENVIRONMENTAL LITERACY",
+                        "NUMERACY SKILLS",
+                        "DIGITAL LITERACY",
+                        "EP",
+                        "EMPLOYABILITY SKILLS",
+                        "DESIGN AND CONSTRUCT FASHION ACCESSORIES",
+                        "MANAGE FASHION STUDIO",
+                        "DESIGN AND CONSTRUCT LADIES WEAR",
+                        "DESIGN AND CONSTRUCT GENTS WEAR",
+                        "DESIGN AND CONSTRUCT CHILDREN WEAR",
+                        "DESIGN AND CONSTRUCT UNIFORMS",
+                        "DESIGN AND CONSTRUCT SPORTS WEAR",
+                        "DESIGN AND CONSTRUCT BRIDAL WEAR",
+                        "DESIGN AND CONSTRUCT LINGERIE WEAR",
+                        "DESIGN AND CONSTRUCT BAGS",
+                        "DESIGN AND CONSTRUCT MILLINERY",
+                        "DESIGN AND CONSTRUCT SHOES",],
+                levels: [4, 5, 6,"Module 1","Module 2","Module 3" ],
             },
         ],
     },
     {
         name: "BUSINESS STUDIES",
-        trainers: ["Mr Mwaura", "Madam Anny"],
+        trainers: ["RIZIKI LYONNO",
+                    "JATTA HUEL JWANDISHA",
+                    "HANNAH MUTEGI",
+                    "PETER MWANGURA",
+                    "SULEIMAN NGEDZO",
+                    "FAITH KIDKO",
+                    "THOMAS MAUNOOH",
+                    "MARIAM MWATELA",
+                    "ROBERT CHITI"],
         courses: [
+            {
+                name: "BUSINESS MANAGEMENT",
+                units: ["COST ACCOUNTING",
+                        "QUANTITATIVE TECHNIQUES",
+                        "OFFICE ADMINISTRATION AND MANAGEMENT",
+                        "SUPPLY AND TRANSPORT MANAGEMENT",
+                        "COMMERCIAL AND ADMINISTRATIVE LAW",
+                        "PRINCIPLES AND PRACTICE OF PLANNING",
+                        "MANAGERIAL ACCOUNTING",
+                        "ORGANIZATION THEORY AND BEHAVIOR",
+                        "PRINCIPLES AND PRACTICE MANAGEMENT",
+                        "HUMAN RESOURCE MANAGEMENT",
+                        "LABOUR AND INDUSTRIAL LAW",
+                        "TRADE PROJECT",
+                        "FINANCIAL MANAGEMENT",
+],
+                levels: [4, 5, 6,"Module 1","Module 2","Module 3"],
+            },
             {
                 name: "HUMAN RESOURSE",
                 units: ["DEMONSTRATE COMMUNICATION SKILLS",
@@ -198,7 +307,7 @@ const departments = [
                         "ENFORCE COMPLIANCE WITH LEGISLATIONS",
                         "MANAGE HUMAN RESOURCE INFORMATION SYSTEM (HRIS)",
                         "UNDERTAKE EMPLOYEE SEPARATION"],
-                levels: [4, 5, 6],
+                levels: [4, 5, 6,"Module 1","Module 2","Module 3"],
             },
             {
                 name: "SUPPLY CHAIN MANAGEMENT",
@@ -209,28 +318,80 @@ const departments = [
                         "WAREHOUSING OPERATIONS AND STOCK CONTROL",
                         "BUSINESS CALCULATIONS AND STATISTICS",
                         "COMMERCE",
-                        "FINANCIAL ACCOUNTING",],
+                        "FINANCIAL ACCOUNTING",              
+                        "OFFICE ORGANIZATION",
+                        "SALES AND MARKETING",
+                        "ECONOMICS",
+                        "BUSINESS FINANCE",
+                        "BUSINESS LAW",
+                        "HUMAN & PUBLIC RELATIONS",
+                        "RESEARCH METHODS",
+                    ],
+                levels: [4, 5, 6,"Module 1","Module 2","Module 3"],
+            },
+            {
+                name: "TOURISM",
+                units: ["PRINCIPLES AND PRACTICES OF MANAGEMENT",
+                        "TOURISM POLICY & PLANNING",
+                        "TOURISM PRODUCT DEVELOPMENT",
+                        "ECOTOURISM",
+                        "TOURISM MARKETING",
+                        "FOREIGN LANGUAGE",
+                        "PUBLIC RELATIONS",
+                        "RESEARCH PROJECT"],
+                levels: [4, 5, 6,"Module 1","Module 2","Module 3"],
+            },
+            {
+                name: "SOCIAL WORK & COMMUNITY DEVELOPMENT",
+                units: ["INTRODUCTION TO COMMUNITY DEVELOPMENT",
+                        "COMMUNITY HEALTH",
+                        "HUMAN GROWTH AND DEVELOPMENT",
+                        "ADMINISTRATION AND MANAGEMENT",
+                        "HISTORY AND GOVERNMENT",
+                        "BUSINESS PLAN",
+                        "RESOURCE MOBILIZATION AND FUNDRAISING",
+                        "PROJECT MANAGEMENT",
+                        "HIV AND AIDS AND OTHER PANDEMICS",
+                        "STATISTICS",
+                        "LEGAL ASPECTS OF SOCIAL DEVELOPMENT WORK",
+                        "RESOURCE MANAGEMENT",
+                        "TRANSFORMATION AND SOCIAL MOVEMENTS",
+                        "COMMUNITY DEVELOPMENT METHODOLOGIES",
+                        "MANAGEMENT OF COMMUNITY CONCERNS",
+                        "COMMUNITY LEADERSHIP",
+                        "GENDER AND DEVELOPMENT",
+                        "COMMUNICATION SKILLS",
+                        "NUMERACY SKILLS",
+                        "DIGITAL LITERACY",
+                        "ENTREPRENEURSHIP SKILLS",
+                        "EMPLOYABILITY SKILLS",
+                        "ENVIRONMENTAL LITERACY",
+                        "OCCUPATIONAL SAFETY & HEALTH PRACTICES",
+                        "SOCIAL RESEARCH WORKS",
+                        "PSYCHO-SOCIAL SUPPORT",
+                        "SOCIAL POLICY IMPLEMENTATION",
+                        "PROJECT RESOURCES MANAGEMENT",
+                        "COMMUNITY AWARENESS ACTIVITIES",
+                        "PERFORMANCE OF HOME-BASED CARE AND SUPPORT",
+                        "CHILD WELFARE PROGRAMMES",
+                        "COMMUNITY CRISIS AND DISASTER SENSITIZATION PROGRAM",
+                        "MANAGEMENT OF COMMUNITY RESOURCES",
+                        "COMMUNITY EMPOWERMENT",
+                        "COORDINATION OF COMMUNITY PROJECTS",
+                        "COMMUNITY AWARENESS, TRAINING, SENSITIZATION",
+                        "ADVOCACY AND LOBBYING ACTIVITIES",
+                        "CRISIS AND DISASTER MANAGEMENT",
+                        "CONFLICT RESOLUTION AND MANAGEMENT",
+                        "HOME BASED CARE AND SUPPORT",
+                        "COORDINATION OF REHABILITATION PROGRAMMES",
+                        "CASE MANAGEMENT",
+                        "MANAGEMENT OF COMMUNITY-BASED GROUPS",
+                        ],
                 levels: [4, 5, 6],
             },
         ],
     },
-    {
-        name: "TOURISM & HOSPITALITY",
-        trainers: ["Mr Koti", "Mr Lote"],
-        courses: [
-            {
-                name: "COURSE 2001",
-                units: ["UNIT 101", "UNIT 1111"],
-                levels: [4],
-            },
-            {
-                name: "COURSE 2002",
-                units: ["UNIT 0009", "UNIT 0005"],
-                levels: [5],
-            },
-        
-        ],
-    },
+   
 ];
 
 // Guidelines for moderation
@@ -247,6 +408,10 @@ const guidelines = [
     "Are the marks allocated commensurate with the expected responses?"
 ];
 
+
+const classes = ["2024/2025", "2025/2026", "2026/2027"];
+
+
 // Main Admin Dashboard Component
 const AdminDashboard = () => {
     const [selectedDepartment, setSelectedDepartment] = useState('');
@@ -256,6 +421,7 @@ const AdminDashboard = () => {
     const [selectedLevel, setSelectedLevel] = useState('');
     const [moderationResults, setModerationResults] = useState({});
     const [status, setStatus] = useState('');
+    const [selectedYear, setSelectedYear] = useState('');
 
     const handleDepartmentChange = (e) => {
         setSelectedDepartment(e.target.value);
@@ -325,6 +491,7 @@ const AdminDashboard = () => {
             course: selectedCourse,
             unit: selectedUnit,
             level: selectedLevel,
+            year: selectedYear,
             answers: guidelines.map((guideline, index) => ({
                 guideline,
                 answer: moderationResults[index]?.answer || '',
@@ -406,14 +573,32 @@ const AdminDashboard = () => {
             </div>
 
             <div className="form-group">
-                <label>Level:</label>
-                <select className="form-control" value={selectedLevel} onChange={handleLevelChange} disabled={!selectedUnit}>
-                    <option value="">Select Level</option>
-                    {selectedUnit && getCourseData(selectedDepartment, selectedCourse)?.levels.map(level => (
-                        <option key={level} value={level}>{level}</option>
-                    ))}
-                </select>
-            </div>
+            <label>Level / Module:</label>
+            <select className="form-control" value={selectedLevel} onChange={handleLevelChange} disabled={!selectedUnit}>
+                <option value="">Select Level or Module</option>
+                {selectedUnit && getCourseData(selectedDepartment, selectedCourse)?.levels.map((levelOrModule, index) => (
+                    <option key={index} value={levelOrModule}>
+                        {typeof levelOrModule === "number" ? `Level ${levelOrModule}` : levelOrModule}
+                    </option>
+                ))}
+            </select>
+           </div>
+
+           <div className="form-group">
+            <label>Class:</label>
+            <select
+                className="form-control"
+                value={selectedYear}
+                onChange={(e) => setSelectedYear(e.target.value)}
+                disabled={!selectedLevel} // Enable only if a level is selected
+            >
+                <option value="">Select Class</option>
+                {classes.map((classOption, index) => (
+                    <option key={index} value={classOption}>{classOption}</option>
+                ))}
+            </select>
+           </div>
+
 
             {/* Guidelines Evaluation */}
             <h3>Guidelines Evaluation</h3>

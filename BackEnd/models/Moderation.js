@@ -1,12 +1,14 @@
-// models/Moderation.js
 const mongoose = require('mongoose');
 
 const ModerationSchema = new mongoose.Schema({
   department: String,
   course: String,
-  trainer: String,
   unit: String,
-  level: Number,
+  trainer:String,
+  level: mongoose.Schema.Types.Mixed, // Allows both numbers and strings
+  levels: [{ type: mongoose.Schema.Types.Mixed }], 
+  year: mongoose.Schema.Types.Mixed, 
+
   answers: [
     {
       guideline: String,
