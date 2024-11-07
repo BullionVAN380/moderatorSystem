@@ -500,7 +500,7 @@ const AdminDashboard = () => {
         };
     
         try {
-            const response = await fetch('http://localhost:5000/api/moderation/submit', {
+            const response = await fetch('https://moderatorsystembabackend.onrender.com/api/moderation/submit', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(payload)
@@ -509,7 +509,7 @@ const AdminDashboard = () => {
             if (response.ok) {
                 const data = await response.json();
                 setStatus(data.message);
-                const pdfResponse = await fetch(`http://localhost:5000/api/moderation/download/${data.id}`);
+                const pdfResponse = await fetch(`https://moderatorsystembabackend.onrender.com/api/moderation/download/${data.id}`);
                 const blob = await pdfResponse.blob();
                 const url = window.URL.createObjectURL(blob);
                 const a = document.createElement('a');
