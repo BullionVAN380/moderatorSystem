@@ -105,8 +105,8 @@ const departments = [
         ],
     },
      {
-        name: "UTOMOTIVE ENGINEERIN",
-        trainers: ["DAVID OMONDI OWITI",
+        name: "AUTOMOTIVE ENGINEERING",
+        trainers: ["DAVID OMONDI ONDITI",
                     "OMONDI JAMES", 
                     "EVANS KIPLANGAT",
                     "VICTORINE CHERONO"],
