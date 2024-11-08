@@ -8,7 +8,7 @@ const departments = [
         trainers: ["NYAKAKO ELAINE",
                     "NALWENGE EMMANUEL", 
                     "LENOX BARAKA",
-                    "KELVIN WANJALA"
+                    "KELVIN WANJALA",
                    "JOSHUA NZIOKA",
                     "ROPHUS MWAKIO", 
                     "DZOMBO",
