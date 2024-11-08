@@ -598,7 +598,7 @@ const AdminDashboard = () => {
     };
     return (
         <div className="container">
-            <h1>Exam Moderatation System</h1>
+            <h1>Exam Moderation System</h1>
             
             <div className="form-group">
                 <label>Department:</label>
