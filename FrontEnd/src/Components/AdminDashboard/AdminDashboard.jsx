@@ -297,7 +297,7 @@ const departments = [
     {
         name: "BUSINESS STUDIES",
         trainers: ["RIZIKI LUVUNO",
-                    "NATHANIEL JWANDISHA",
+                    "NATHANIEL WANDISHA",
                     "HANNAH MUTEGI",
                     "PETER MWAURA",
                     "SULEIMAN NGEDZO",
