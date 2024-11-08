@@ -75,11 +75,7 @@ router.get('/download/:id', async (req, res) => {
     doc.text(`Class: ${moderation.year}`);
     doc.text(`Date: ${new Date(moderation.submissionDate).toLocaleDateString()}`);
     doc.moveDown();
-///mine
-    doc.text('Levels / Modules:');
-    moderation.levels.forEach((item, index) => {
-      doc.text(`- ${typeof item === 'number' ? `Level ${item}` : item}`);
-    });
+
 
     // Add each guideline and response
     moderation.answers.forEach((item, index) => {
