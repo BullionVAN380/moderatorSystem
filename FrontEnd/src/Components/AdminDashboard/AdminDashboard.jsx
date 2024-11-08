@@ -409,7 +409,27 @@ const guidelines = [
 ];
 
 
-const classes = ["2024/2025", "2025/2026", "2026/2027"];
+const classes = ["JAN 24",
+                 "MAY 24", 
+                 "SEPT 24",
+                 "JAN 25", 
+                 "MAY 25", 
+                 "SEPT 25",
+                 "JAN 26", 
+                 "MAY 26", 
+                 "SEPT 26",
+                 "JAN 27", 
+                 "MAY 27", 
+                 "SEPT 27",
+                 "JAN 28", 
+                 "MAY 28", 
+                 "SEPT 28",
+                 "JAN 29", 
+                 "MAY 29", 
+                 "SEPT 29",
+                 "JAN 30", 
+                 "MAY 30", 
+                 "SEPT 30"];
 
 
 // Main Admin Dashboard Component
@@ -483,6 +503,7 @@ const AdminDashboard = () => {
         setSelectedLevel('');
         setModerationResults({});
     };
+
 
     const handleSubmitExam = async () => {
         const payload = {
