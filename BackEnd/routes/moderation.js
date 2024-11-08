@@ -133,13 +133,13 @@ router.get('/download/:id', async (req, res) => {
 });
 
 // Helper function to add footer to each page
-function addFooter(doc) {
-  doc.fontSize(10)
-    .text('Kinango Technical College - Moderation Report', 0, doc.page.height - 30, {
-      align: 'center',
-      width: doc.page.width
-    });
-}
+//function addFooter(doc) {
+ // doc.fontSize(10)
+    //.text('Kinango Technical College - Moderation Report', 0, doc.page.height - 30, {
+    //  align: 'center',
+     // width: doc.page.width
+   // });
+//}
 
 
 module.exports = router;
